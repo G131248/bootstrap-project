@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>task//bootstap</title>
+</head>
+<body>
+
+<navbar class="navbar h-75">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary col-12 fixed-top">
+  
+      <a class="navbar-brand" href="javascript:void(0)"><img src="images/logo.jpg" alt="" width="70" height="50"></a>
+<h3 class="navh3 text-white">compounding</h3>
+   <!-- //////////////////////                 links           //////////////////////////// -->
+
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item ">
+            <a class="nav-link text-warning fw-bold fst-italic " href="javascript:void(0)"><h6>Home</h6></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning fw-bold fst-italic" href="javascript:void(0)"><h6>Courses</h6></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning fw-bold fst-italic" href="javascript:void(0)"><h6>Abour us</h6></a>
+          </li>
+          <div class="dropdown bg-secoundary ">
+            <button type="button " class="btn btn-warning dropdown-toggle btn-ml-50" data-bs-toggle="dropdown">
+              Our Products
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item text-warning bg-primary" href="#">Creams</a></li>
+              <li><a class="dropdown-item text-warning bg-primary" href="#">Emulsions</a></li>
+              <li><a class="dropdown-item text-warning bg-primary" href="#">Suspension</a></li>
+              <hr>
+              <li><a class="dropdown-item text-warning bg-primary" href="#">Syrup</a></li>
+              <li><a class="dropdown-item text-warning bg-primary" href="#">Tablets</a></li>
+              <li><a class="dropdown-item text-warning bg-primary" href="#">Capsules</a></li>
+
+            </ul><!-- dropdown-menu -->
+          </div><!-- dropdown bg-secoundary -->
+        </ul><!-- navbar-nav me-auto -->
+    
+          <!-- //////////////////////            links           //////////////////////////// -->
+
+
+<!-- //////////////////////////                search place holder               ////////////////////////////////// --> 
+
+        <form class="d-flex ">
+          <input class="form-control-sm placeholder-sm" type="text" placeholder="Search">
+          <button class="btn btn-warning btn-sm " type="button">Search</button>
+
+          <!-- /////////////////////////////////////////////////////////////////// -->
+
+<!-- Button to Open the Modal -->
+<button type="button" class="btn btn-warning text-primary btn-sm border-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+<h6>log In </h6>
+</button>
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header bg-warning">
+        <h4 class="modal-title">Log In </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body bg-primary">
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label text-white">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label text-white">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit " class="btn btn-primary text-warning border-warning">Submit</button>
+        </form>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</navbar>
+<!-- <section class="nav_two z-50 position-absolute text-info">
+<div class="flo_ticons ">
+  <h2><i class="fa-brands fa-linkedin"></i></h2>
+  <h2><i class="fa-brands fa-instagram"></i></h2>
+  <h2><i class="fa-brands fa-x-twitter"></i></h2>
+  <h2><i class="fa-brands fa-facebook"></i></h2> 
+  <h2><i class="fa-brands fa-square-whatsapp"></i></h2>
+  
+  </div>
+</section> -->
+
+
+<!-- ///////////////////////////////////////////   main        //////////////////////////////////////////////////// -->
+<main >
+<div class="maincontainer">
+<div class="container-fluid  ">
+<!-- Carousel -->
+<div id="demo" class="carousel slide justify-content-center m-auto" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner col-6-lg col-8-md mh-50">
+    <div class="carousel-item active position-relative">
+      <div class="container1">
+      <img src="images/capsules.jpg" alt="Los Angeles" class="d-block w-100 ">
+      <div class=" centered align-items-lg-cente ">
+        <h3 class="capsules text-center text-primary">capsules</h3>
+        <button type="button" class="btn btn-primary">book products</button>
+        <button type="button" class="btn btn-primary">register course</button>
+      </div>
+    </div><!-- container1 -->
+  </div>
+    <div class="carousel-item">
+      <img src="images/creams.jpg" alt="Chicago" class="d-block w-100 ">
+      <div class="centered align-items-lg-cente">
+        <h3 class="capsules text-center text-primary">creams</h3>
+        <button type="button" class="btn btn-primary">book products</button>
+        <button type="button" class="btn btn-primary">register course</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/suspension.jpg" alt="New York" class="d-block w-100 ">
+      <div class="centered align-items-lg-cente bg-warning-50">
+        <h3 class="capsules text-center text-primary">suspension</h3>
+        <button type="button" class="btn btn-primary">book products</button>
+        <button type="button" class="btn btn-primary">register course</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/syrup.jpg" alt="New York" class="d-block w-100 ">
+      <div class="centered align-items-lg-cente">
+        <h3 class="capsules text-center text-primary">syrup</h3>
+        <button type="button" class="btn btn-primary">book products</button>
+        <button type="button" class="btn btn-primary">register course</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/tablets.jpg" alt="New York" class="d-block w-100 ">
+      <div class="centered align-items-lg-cente">
+        <h3 class="capsules text-center text-primary">tablets</h3>
+        <button type="button" class="btn btn-primary">book products</button>
+        <button type="button" class="btn btn-primary">register course</button>
+      </div>
+    </div>
+  </div>
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+</div>
+</main>
+<!-- ////////////////////////////////////   first section     ///////////////////////////////////////////// -->
+<section class="first">
+
+<div class="jumbetron h-75 d-inline-block ">
+  <div class=" first-div1  h-75  ps-5 bg-primary text-warning   rounded">
+    <h1>welcome</h1>
+    <p ><h3 class="text-white">with all our honor we introduce to you the most valuable courses to learn pharmaceutical compounding</h3></p>
+    <button type="button" class="btn btn-warning">learn more</button>
+  </div>
+</div>
+</section>
+
+<!-- /////////////////////////////////////    first  //////////////////////////////////////////////////////// -->
+
+<!-- //////////////////////////////////     secound section   ////////////////////////////////////////////// -->
+
+<section class="secound">
+
+  <!-- ///////////////////   jumbetron  ////////////////////////// -->
+<div class=" jumbotron jumbotron-fluid  justify-content-center col-12">
+  <div class=" secound-div1   bg-warning ">
+    <p  ><h2 class="text-white text-center ">pharmaceutical compounding</h2></p>
+  </div>
+</div>
+<!-- //////////////////////     accordion      ///////////// -->
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header text-center ">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne ">
+      <h3 class="text-primary">CREAM COURSES</h3> 
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+      <div class="card-body">
+        <h4> 
+
+<!-- ///////////////////   table //////////////////// -->
+
+
+<div class="container mt-3">
+  <h2>SYLLABUS OF THE COURSE</h2>
+  <p>the course begin at july at every year and continued for two years</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>LECTURER NAME</th>
+        <th>MATERIAL</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>THEORETICAL</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>PRACTICAL</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>EXAM</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- ///////////////////   table end //////////////////// -->
+
+
+        </h4> 
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header text-center ">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+     <h4 class="text-primary">CAPSULES COURSES</h4> 
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        <h4>
+          <!-- ///////////////////   table //////////////////// -->
+
+
+<div class="container mt-3">
+  <h2>SYLLABUS OF THE COURSE</h2>
+  <p>the course begin at july at every year and continued for two years</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>LECTURER NAME</th>
+        <th>MATERIAL</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>THEORETICAL</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>PRACTICAL</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>EXAM</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- ///////////////////   table end //////////////////// -->
+ </h4> 
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header text-center ">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+     <h4 class="text-primary"> EMULSION COURSES</h4> 
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        <h4>
+          <!-- ///////////////////   table //////////////////// -->
+
+
+<div class="container mt-3">
+  <h2>SYLLABUS OF THE COURSE</h2>
+  <p>the course begin at july at every year and continued for two years</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>LECTURER NAME</th>
+        <th>MATERIAL</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>THEORETICAL</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>PRACTICAL</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>EXAM</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- ///////////////////   table end //////////////////// -->
+ </h4> 
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</section>
+<!-- ////////////////////////////////////////////   secound  //////////////////////////////////////////// -->
+
+<!-- ///////////////////////////////////////////  third  //////////////////////////////////////////////////// -->
+<section class="third">
+  <!-- ///////////////////   jumbetron  ////////////////////////// -->
+  <div class=" jumbotron jumbotron-fluid  justify-content-center col-12">
+    <div class=" secound-div1   bg-primary ">
+      <p  ><h2 class="text-white text-center ">TRANSLATE INTO GERMANY</h2></p>
+    </div>
+  </div>
+  <!-- //////////////////   label  /////////////////////// -->
+  <label for="comment">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <button
+          class="btn btn-primary btn-sm" 
+          data-bs-toggle="tooltip" title="past your text below"
+          data-verify="window.prompt('text copied') == ''"
+          data-verify-not-verified="Text to show when not verified"
+          onclick="alert('TEXT PASTED')">
+        
+          <h4 class="text-warning">PASTE HERE</h4>
+        </button>  
+      </div>
+    </div>
+  </div>
+</label>
+  <!-- //////////////////   text area /////////////////////// -->
+  <div class="container-fluid">
+    <textarea placeholder="translate" cols="100" rows="5"></textarea> 
+</div>
+<!-- /////////////////  GERMANY END  /////////////////////// -->
+<hr>
+     <!-- ///////////////////   jumbetron  ////////////////////////// -->
+  <div class=" jumbotron jumbotron-fluid  justify-content-center col-12">
+    <div class=" secound-div1   bg-primary ">
+      <p  ><h2 class="text-white text-center ">TRANSLATE INTO FRANCAISE</h2></p>
+    </div>
+  </div>
+  <!-- //////////////////   label  /////////////////////// -->
+  <label for="comment">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <button
+          class="btn btn-primary btn-sm" 
+          data-bs-toggle="tooltip" title="past your text below"
+          data-verify="window.prompt('text copied') == ''"
+          data-verify-not-verified="Text to show when not verified"
+          onclick="alert('TEXT PASTED')">
+        
+          <h4 class="text-warning">PASTE HERE</h4>
+        </button>   
+      </div>
+    </div>
+  </div>
+</label>
+  <!-- //////////////////   text area /////////////////////// -->
+  <div class="container-fluid">
+    <textarea placeholder="translate" cols="100" rows="5"></textarea> 
+</div>
+
+<!-- /////////////////  GERMANY END  /////////////////////// -->
+<hr>
+  <!-- ///////////////////   jumbetron  ////////////////////////// -->
+  <div class=" jumbotron jumbotron-fluid  justify-content-center col-12">
+    <div class=" secound-div1   bg-primary ">
+      <p  ><h2 class="text-white text-center ">TRANSLATE INTO SPANICH</h2></p>
+    </div>
+  </div>
+  <!-- //////////////////   label  /////////////////////// -->
+  <label for="comment">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <button
+          class="btn btn-primary btn-sm" 
+          data-bs-toggle="tooltip" title="past your text below"
+          data-verify="window.prompt('text copied') == ''"
+          data-verify-not-verified="Text to show when not verified"
+          onclick="alert('TEXT PASTED')">
+        
+          <h4 class="text-warning">PASTE HERE</h4>
+        </button>   
+      </div>
+    </div>
+  </div>
+</label>
+  <!-- //////////////////   text area /////////////////////// -->
+  <div class="container-fluid">
+    <textarea placeholder="translate" cols="100" rows="5"></textarea> 
+</div> 
+
+<!-- /////////////////  GERMANY END  /////////////////////// -->       
+</section>
+<!-- ///////////////////////////////////////////  third end //////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////  forth section start //////////////////////////////////////////////////// -->
+<section class="forth">
+<div class="fourth1"></div>
+
+<hr>
+</section>
+
+<!-- ///////////////////////////////////////////  forth section end //////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////  fifth section end //////////////////////////////////////////////////// -->
+<section class="fifth">
+
+
+  <div class="container-fluid d-flex justify-content-around">
+<div class="one col-4 text-center">
+  <img src="images/borax.jpeg " alt="" width="200" height="200">
+  <span class="text-primary"> antiseptic</span>
+  <button class="btn btn-xsm btn-warning">components</button>
+</div>
+<div class="two col-4 text-center">
+  <img src="images/creams.jpg" alt="" width="200" height="200">
+  <span class="text-primary">skin cracks</span>
+  <button class="btn btn-xsm btn-warning">components</button>
+</div>
+<div class="three col-4 text-center">
+  <img src="images/gentian vilot.jpeg" alt="" width="200" height="200">
+  <span class="text-primary">antiseptic</span>
+  <button class="btn btn-xsm btn-warning">components</button>
+</div>
+</div>
+<br><br><br>
+<div class="container-fluid d-flex justify-content-around">
+  <div class="one col-4 text-center">
+    <img src="images/ginseng lotion.jpeg" alt="" width="200" height="200">
+    <span class="text-primary">hair preparation</span>
+    <button class="btn btn-xsm btn-warning">components</button>
+  </div>
+  <div class="two col-4 text-center">
+    <img src="images/lanolin ointment.jpeg" alt="" width="200" height="200">
+    <span class="text-primary">emollient</span>
+    <button class="btn btn-xsm btn-warning">components</button>
+  </div>
+  <div class="three col-4 text-center">
+    <img src="images/salisylic oint.jpeg" alt="" width="200" height="200">
+    <span class="text-primary">acne</span>
+    <button class="btn btn-xsm btn-warning">components</button>
+  </div>
+  </div>
+
+  <br><br><br>
+<div class="container-fluid d-flex justify-content-around">
+
+<div class="four col-6 text-center ">
+  <img src="images/benzoin tr.jpeg" alt="" width="200" height="200">
+  <span class="text-primary">cough</span>
+  <button class="btn btn-xsm btn-warning">components</button>
+</div>
+<div class="five col-6 text-center">
+  <img src="images/sod bicarbonate caps.jpeg" alt="" width="200" height="200">
+  <span class="text-primary">heart problems</span>
+  <button class="btn btn-xsm btn-warning">components</button>
+</div>
+</div>
+
+
+</section>
+<!-- ///////////////////////////////////////////  fifth section end //////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////  sixthes section start //////////////////////////////////////////////////// -->
+
+<section class="sixthes">
+
+  <section class="sixthes">
+
+    <div class=" bg-warning text-primary  rounded ">
+      <h1 class="text-center">thanks for</h1>
+    </div><!-- jumbetron --> 
+  <!-- //////////////////////////////////////////////////////////////////////////////// -->
+  <div class="container-fluid col-12 d-flex justify-content-around ">
+  <div class="sixthes-one ">
+    <div class="backimage1">
+    <h6 class=" fs-30  text-primary ">Great Appreciation for</h6>
+  <!-- image 1 -->
+    <div class="container py-4">
+      <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="card position">
+            <div class="ratio ratio-1x1 rounded-circle overflow-hidden ">
+              <img  src="images/prof 4.jpeg" class="card-img-top img-cover " alt="Raeesh" >
+            </div>
+          </div>
+      </div>
+    </div>
+  <!-- image 1 -->
+  <h6 class="text-primary">prof.Dr./ Tomas merrlyen</h6>
+  </div><!-- backimage -->
+  </div><!-- one -->
+  
+  
+  <div class="sixthes-two ">
+    <div class="backimage2">
+      <h6 class=" fs-30  text-primary ">Great Appreciation for</h6>
+  <!-- image 1 -->
+    <div class="container py-4">
+      <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+    
+          <div class="card">
+            <div class="ratio ratio-1x1 rounded-circle overflow-hidden">
+              <img src="images/prof 2.jpeg" class="card-img-top img-cover" alt="Raeesh">
+            </div>
+          </div>
+      </div>
+    </div>
+  <!-- image 1 -->
+  <h6 class="text-primary">prof.Dr./ Suzanne Albert</h6>
+  </div><!-- backimage2 -->
+  </div><!-- two -->
+  
+  <div class="sixthes-three ">
+    <div class="backimage3">
+      <h6 class=" fs-30  text-primary ">Great Appreciation for</h6>
+  <!-- image 1 -->
+    <div class="container py-4">
+      <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="card">
+            <div class="ratio ratio-1x1 rounded-circle overflow-hidden">
+              <img src="images/prof 3.jpeg" class="card-img-top img-cover" alt="Raeesh">
+            </div>
+          </div>
+      </div>
+    </div>
+  <!-- image 1 -->
+  <h6 class="text-primary">prof.Dr./ Magy dekins</h6>
+  </div><!-- backimage3 -->
+  </div><!-- three -->
+  </div><!-- fluid -->
+  </section>
+</section>
+<!-- ///////////////////////////////////////////  sixthes section end //////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////// seventh section start //////////////////////////////////////////////////// -->
+
+
+<section class="seventh">
+  <div class="container-fluid pt-5">
+<div class="seventh_item1 d-flex col-12 justify-content-centre ">
+<div class="container seventh_image1 mt-5 col-3">
+  <img class="capsules" width="250" height="250" src="images/seven benifits.jpeg" alt="">
+</div><!-- container seventh_image1 -->
+<div class="seventh_text col-8">
+  <div class=" p-5  text-black rounded">
+    <h1>Podcast Title</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ullam animi quibusdam tenetur ad alias, voluptatem veritatis voluptatum, neque culpa fugit placeat eius soluta adipisci non maxime! Id, libero earum.</p>
+    <div class="seventh_icons col-4 d-flex justify-content-around ">
+      <div class="icon1 bg-secoudary">
+         <i class="fa-solid fa-podcast"></i>
+         <span>podcast</span>
+        </div><!-- icon1 -->
+     <div class="icon2"> 
+      <i class="fa-solid fa-clock"></i>
+      <span>minutes</span>
+    </div><!-- icon2 -->
+   <div class="icon3">
+    <i class="fa-solid fa-circle-play"></i>
+    <span>play episode</span>
+  </div><!-- icon3 -->
+    </div><!-- seventh_icons -->
+  </div><!-- p-5  text-black rounded -->
+</div><!-- seventh_text -->
+</div><!-- seventh_item1 -->
+</div><!-- container-fluid -->
+</section><!-- seventh -->
+<!-- //////////////////////////////////// 8////////////////////////////// -->
+
+<section class="eightth">
+  <div class="container-fluid pt-5">
+    <div class="eightth_item1 d-flex col-12 justify-content-centre ">
+      <div class="eightth col-8">
+        <div class=" p-5  text-black rounded">
+          <h1>Podcast Title</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ullam animi quibusdam tenetur ad alias, voluptatem veritatis voluptatum, neque culpa fugit placeat eius soluta adipisci non maxime! Id, libero earum.</p>
+          <div class="eightth col-4 d-flex justify-content-around ">
+            <div class="icon81 bg-secoudary">
+               <i class="fa-solid fa-podcast"></i>
+               <span>podcast</span>
+              </div><!-- icon1 -->
+           <div class="icon82"> 
+            <i class="fa-solid fa-clock"></i>
+            <span>minutes</span>
+          </div><!-- icon2 -->
+         <div class="icon83">
+          <i class="fa-solid fa-circle-play"></i>
+          <span>play episode</span>
+        </div><!-- icon3 -->
+          </div><!-- seventh_icons -->
+        </div><!-- p-5  text-black rounded -->
+      </div><!-- seventh_text -->
+      <div class="container eightth mt-5 col-3">
+        <img class="capsules" width="250" height="250" src="images/pharm.comp.jpeg" alt="">
+      </div><!-- container seventh_image1 -->
+    </div><!-- seventh_item1 -->
+    </div><!-- container-fluid -->
+</section>
+<!-- 
+////////////////////  9  ///////////////////////////// -->
+<section class="seventh">
+<div class="container-fluid pt-5">
+<div class="seventh_item1 d-flex col-12 justify-content-centre ">
+<div class="container seventh_image1 mt-5 col-3">
+<img class="capsules" width="250" height="250" src="images/calculations.jpeg" alt="">
+</div><!-- container seventh_image1 -->
+<div class="seventh_text col-8">
+<div class=" p-5  text-black rounded">
+  <h1>Podcast Title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ullam animi quibusdam tenetur ad alias, voluptatem veritatis voluptatum, neque culpa fugit placeat eius soluta adipisci non maxime! Id, libero earum.</p>
+  <div class="seventh_icons col-4 d-flex justify-content-around ">
+    <div class="icon1 bg-secoudary">
+       <i class="fa-solid fa-podcast"></i>
+       <span>podcast</span>
+      </div><!-- icon1 -->
+   <div class="icon2"> 
+    <i class="fa-solid fa-clock"></i>
+    <span>minutes</span>
+  </div><!-- icon2 -->
+ <div class="icon3">
+  <i class="fa-solid fa-circle-play"></i>
+  <span>play episode</span>
+</div><!-- icon3 -->
+  </div><!-- seventh_icons -->
+</div><!-- p-5  text-black rounded -->
+</div><!-- seventh_text -->
+</div><!-- seventh_item1 -->
+</div><!-- container-fluid -->
+</section><!-- seventh -->
+
+<!-- //////////////////////////////// 9  ////////////////////////////// -->
+<br><br><br>
+<!-- ////////////////////////////////////  10   /////////////////////////////////////////////// -->
+<section class="tenth p-50 ">
+  <div class="container10  p-50 col-12 d-flex  justify-content-around ">
+  
+    <div class="ten_one border border-dark text-center bg-white col-2 ">
+    <div class="textup text-primary"><span>subscribe now</span></div>
+  <div class="ten1 col-12 w-100 ">
+    <img  width="50" height="50" src="images/twitter.jpeg" alt="">
+    <div class="textdown  "><span>press here</span></div>
+    <button  class="link btn btn-primary btn-sm" 
+  
+    data-bs-toggle="tooltip" title="press to go link "
+    data-verify="window.prompt('text copied') == ''"
+    data-verify-not-verified="Text to show when not verified"
+    onclick="alert('loading')">
+  
+      <i class="fa-brands fa-twitter"></i></button>
+  </div>
+  </div><!-- one -->
+  
+  <div class="ten_two border border-dark text-center col-2">
+    <div class="textdown text-primary"><span>follow</span></div>
+  <div class="ten2 col-12 w-100">
+    <img width="50" height="50" src="images/whatsapp.jpeg" alt="">
+    <div class="textdown "><span>press here</span></div>
+    <button class="link btn btn-primary btn-sm" 
+  
+    data-bs-toggle="tooltip" title="press to go link "
+    data-verify="window.prompt('text copied') == ''"
+    data-verify-not-verified="Text to show when not verified"
+    onclick="alert(' loading')"> 
+      
+      <i class="fa-brands fa-whatsapp"></i></button>
+  </div>
+  </div><!-- two -->
+  
+  <div class="ten_three border border-dark text-center col-2">
+    <div class="textdown text-primary"><span>link the page</span></div>
+  <div class="ten3 col-12 w-100">
+    <img width="50" height="50" src="images/inestigram.jpeg" alt="">
+    <div class="textdown "><span>press here</span></div>
+    <button class="link btn btn-primary btn-sm" 
+  
+    data-bs-toggle="tooltip" title="press to go link "
+    data-verify="window.prompt('text copied') == ''"
+    data-verify-not-verified="Text to show when not verified"
+    onclick="alert(' loading')"> 
+       <i class="fa-brands fa-instagram"></i></button>
+  </div>
+  <div class="textdown"></div>
+  </div><!-- three -->
+  
+  
+  <div class="ten_four border border-dark text-center col-2">
+    <div class="textdown text-primary"><span>watch videos</span></div>
+  <div class="ten4 col-12 w-100">
+    <img width="50" height="50" src="images/in.jpg" alt="">
+    <div class="textdown "><span>press here</span></div>
+    <button class="link btn btn-primary btn-sm" 
+  
+    data-bs-toggle="tooltip" title="press to go link "
+    data-verify="window.prompt('text copied') == ''"
+    data-verify-not-verified="Text to show when not verified"
+    onclick="alert(' loading')"> 
+       <i class="fa-brands fa-linkedin"></i></button>
+  </div>
+  </div><!-- four -->
+  </div><!-- container 10 -->
+  </section>
+
+  <!-- 
+///////////////////////////////////////////  11  ////////////////////////////////// -->
+<section class="eleventh bg-primary">
+  <hr>
+<div class="container-fluid bg-primary text-center ">
+<div class="eleventhsymbols d-flex col-12 justify-content-around ">
+<div class="rateus col-4">
+<img  width="50" height="50" src="images/rate us.jpg" alt="">
+</div><!-- rateus -->
+<div class="links col-4">
+<img  width="50" height="50" src="images/links.jpg" alt="">
+</div><!-- links -->
+<div class="vision col-4">
+<img  width="50" height="50" src="images/vision.jpg" alt="">
+</div><!-- vision -->
+
+</div><!-- symbols -->
+</div><!-- container -->
+<hr>
+<!-- /////////////////////////// -->
+
+<div class="eleventhtexts d-flex col-12 justify-content-around ">
+
+<div class="eleventh_first text-white col-4 text-center">
+
+<h6>Telephone number:01017858651</h6>
+<h6>Adress: Elhanouvil-Alexandria</h6>
+<h6>Fax number: 034393081</h6>
+
+
+</div><!-- first -->
+<div class="eleventh_secound col-4 text-center">
+
+  <h6>visit us</h6>
+  <h6>take alook</h6>
+  <h6>looking for better future</h6>
+
+</div><!-- secound -->
+<di class="eleventh_third col-4 text-center">
+
+  <h6>special offers</h6>
+  <h6>delivary sevices</h6>
+  <h6>wearethe best</h6>
+
+</di><!-- third -->
+
+</div><!-- texts -->
+<!-- /////////////////////////// -->
+<div class="eleventhcopyrights text-center text-info">
+
+<h3>COPYRIGHTS &copy; the future for pharmaceutical development</h3>
+</div>
+
+</section>
+<!-- ///////////////////////////////////////////  11  ////////////////////////////////// -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/webasite3.js"></script>
+</body>
+</html>
+
+

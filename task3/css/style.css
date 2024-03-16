@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+}
+.navh6{
+    color: yellow;
+  
+}
+.container{
+   display: inline-block
+}
+
+.navh6{
+    font-size:x-small;
+}
+.container-fluid{
+    height: 50%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+  }
+.jumbetron{
+    height:200px;;
+}
+.first-div1{
+    height: 100;
+}
+.forth{
+   
+    background-image: url(../images/pharmaceutical\ compounding.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth1{
+    height: 400px;
+    width: 100%;
+}
+
+.flo_ticons{
+   
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    z-index: -50;
+ 
+}
+
+
+
+/* /////////////////////////////////     section five ////////////////////////////////// */
+
+.one button{
+    display:inline-block;
+}
+
+.two button{
+    display:inline-block;
+}
+.three button{
+    display:inline-block;
+}
+.four button{
+    display:inline-block;
+}
+.five button{
+    display:inline-block;
+}
+.item1, .item3, .item5{
+    width: 25%;
+    background-color: blue;
+}
+.item2, .item4, .item6{
+    width: 25%;
+    background-color:blueviolet
+}
+span{
+    display: block;
+}
+.one , .two, .three, .four, .five{
+    position: relative;
+    background-color:whitesmoke
+}
+.one::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    bottom: 0;
+    right: 0;
+    background-color:red;
+    opacity: 0;
+}
+.one:hover::after{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.1;
+    transition: 1s;
+}
+.two::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    bottom: 0;
+    right: 0;
+    background-color:red;
+    opacity: 0;
+}
+.two:hover::after{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.1;
+    transition: 1s;
+}
+.three::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    bottom: 0;
+    right: 0;
+    background-color:red;
+    opacity: 0;
+}
+.three:hover::after{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.1;
+    transition: 1s;
+}
+.one::before{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:yellow;
+    opacity: 0;
+}
+.one:hover::before{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.3;
+    transition: 1s;
+}
+.two::before{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:yellow;
+    opacity: 0;
+}
+.two:hover::before{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.3;
+    transition: 1s;
+}
+.three::before{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:yellow;
+    opacity: 0;
+}
+.three:hover::before{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.3;
+    transition: 1s;
+}
+.four::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    bottom: 0;
+    right: 0;
+    background-color:red;
+    opacity: 0;
+}
+.four:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    transition: 1s;
+}
+.four::before{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:yellow;
+    opacity: 0;
+}
+.four:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+.five::after{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    bottom: 0;
+    right: 0;
+    background-color:red;
+    opacity: 0;
+}
+.five:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    transition: 1s;
+}
+.five::before{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:yellow;
+    opacity: 0;
+}
+.five:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+/* ///////////////////////////////////////  section five //////////////////////////////// */
+
+
+
+.backimage1 {
+    height: 40vh;
+    
+     background-image: url(../images/prof\ 4.jpeg);
+     background-size: 500;
+     background-repeat: no-repeat;
+    opacity: 0.5;
+    }
+    .backimage2 {
+        height: 40vh;
+        background-image: url(../images/prof\ 2.jpeg);
+        background-size: 500;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+    }
+    .backimage3 {
+        height: 40vh;
+        background-image: url(../images/prof\ 3.jpeg);
+        background-size: 500;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+    }
+    .img{
+        border-radius: 50%;
+    }
+    .backimage1:hover{
+        transform: scale(0.8);
+        opacity:1;
+    }
+    .backimage2:hover{
+        transform: scale(0.8);
+        opacity:1;
+    }
+    .backimage3:hover{
+        transform: scale(0.8);
+        opacity:1;
+    }
+    
+    
+.seventh i{
+    font-size: small;
+    color:darkblue;
+
+}
+.icon1, .icon2, .icon3{
+   background-color: blanchedalmond;
+
+}
+span{
+    font-size: xx-small;
+}
+.seventh_item1{
+border-style:dotted;
+box-shadow: 0 10px 10px 0  
+violet, 0  
+10px 10px 0 violet;
+
+}
+
+.capsules{
+    polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+  
+}
+
+/* /////////////////////////////  8  /////////////////////////////////////////////// */
+
+ .eightth i{
+    font-size: small;
+    color:darkblue;
+
+}
+.icon81, .icon82, .icon83{
+   background-color: blanchedalmond;
+
+}
+span{
+    font-size: xx-small;
+}
+.eightth_item1{
+border-style:dotted;
+box-shadow: 0 10px 10px 0  
+violet, 0  
+10px 10px 0 violet;
+
+}
+
+.capsules{
+    polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+  
+}
+/* /////////////////////////////////////////////////////////////////////// */
+
+
+.ten1{
+    align-self: center;
+}
+
+.ten_one, .ten_two, .ten_three, .ten_four{
+   box-shadow: 0 0 50px violet;
+        box-shadow: 0 0 50px violet;
+}
